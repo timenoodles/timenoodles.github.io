@@ -1,5 +1,4 @@
 {{ define "main" }}
-{{ .Content }}
 <ul class="blog-posts">
   {{ range where .Site.RegularPages "Section" "blog" }}
   <li>
@@ -18,4 +17,5 @@
   </li>
   {{ end }}
 </ul>
+{{ .Content }}
 {{ end }}
