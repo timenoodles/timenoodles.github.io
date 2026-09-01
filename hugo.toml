@@ -7,4 +7,4 @@ theme = 'hugo-bearblog'
 [params]
   author = "Kenji"
   description = "Data Scientist."
-  mainSections = ["posts"]
+  mainSections = ["blog"]
