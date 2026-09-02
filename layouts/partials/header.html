@@ -1,6 +1,4 @@
 {{ if not .IsHome }}
-<a href="{{ "" | relURL }}" class="title">
-  <h2>{{ .Site.Title }}</h2>
-</a>
+<a href="{{ "" | relURL }}" class="title">← Voltar à página inicial</a>
 {{ end }}
 <nav>{{- partial "nav.html" . -}}</nav>
