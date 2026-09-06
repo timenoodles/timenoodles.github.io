@@ -2,6 +2,6 @@
 title = "Home"
 +++
 
-Data Scientist. Escrevo sobre dados, tecnologia e projetos.
+Data Scientist. I write about data, technology, and projects.
 
-Bem-vindo ao meu blog — aqui compartilho aprendizados, experimentos e notas sobre meu trabalho.
+Welcome to my blog — here I share learnings, experiments, and notes about my work.

@@ -1,5 +1,5 @@
 baseURL = 'https://timenoodles.github.io/'
-languageCode = 'pt-br'
+languageCode = 'en-us'
 title = 'Kenji'
 theme = 'hugo-tufte'
 hasCJKLanguage = false
@@ -46,13 +46,13 @@ paginate = 5
   url = "/posts/"
 
 [[menu.nav]]
-  name = "Categorias"
+  name = "Categories"
   weight = -90
   identifier = "categories"
   url = "/categories/"
 
 [[menu.nav]]
-  name = "Sobre"
+  name = "About"
   weight = -80
   identifier = "about"
   url = "/about/"

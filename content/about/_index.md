@@ -1,5 +1,5 @@
 ---
-title: "Sobre"
+title: "About"
 ---
 
-Data Scientist. Escrevo sobre dados, tecnologia e projetos.
+Data Scientist. I write about data, technology, and projects.
