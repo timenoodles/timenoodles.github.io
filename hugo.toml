@@ -1,10 +1,58 @@
 baseURL = 'https://timenoodles.github.io/'
 languageCode = 'pt-br'
 title = 'Kenji'
-theme = 'hugo-bearblog'
+theme = 'hugo-tufte'
+hasCJKLanguage = false
+canonifyURLs = true
+paginate = 5
 
+[markup]
+  [markup.goldmark.renderer]
+    unsafe = true
+  [markup.highlight]
+    noClasses = false
+    guessSyntax = true
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
 
 [params]
   author = "Kenji"
   description = "Data Scientist."
-  mainSections = ["blog"]
+  subtitle = "Data Scientist."
+  showPoweredBy = false
+  math = true
+  KaTeXVersion = "0.16.4"
+  KaTeXCDN = "//cdn.jsdelivr.net/npm"
+  codeBlocksDark = false
+  marginNoteInd = "⊕"
+  sansSubtitle = false
+  centerArticle = false
+  showSummary = true
+  github = "timenoodles"
+
+[[menu.nav]]
+  name = "Home"
+  weight = -110
+  identifier = "home"
+  url = "/"
+
+[[menu.nav]]
+  name = "Posts"
+  weight = -100
+  identifier = "posts"
+  url = "/posts/"
+
+[[menu.nav]]
+  name = "Categorias"
+  weight = -90
+  identifier = "categories"
+  url = "/categories/"
+
+[[menu.nav]]
+  name = "Sobre"
+  weight = -80
+  identifier = "about"
+  url = "/about/"
