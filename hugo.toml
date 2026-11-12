@@ -1,58 +1,42 @@
 baseURL = 'https://timenoodles.github.io/'
-languageCode = 'en-us'
+locale = 'en-us'
 title = 'Kenji'
-theme = 'hugo-tufte'
-hasCJKLanguage = false
-canonifyURLs = true
-paginate = 5
+theme = 'shibui'
 
 [markup]
   [markup.goldmark.renderer]
     unsafe = true
   [markup.highlight]
-    noClasses = false
+    codeFences = true
     guessSyntax = true
+    lineNos = false
+    noClasses = true
+    tabWidth = 4
+    style = "algol_nu"
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 4
+    ordered = true
 
 [taxonomies]
-  category = "categories"
-  series = "series"
   tag = "tags"
 
 [params]
-  author = "Kenji"
   description = "Data Scientist."
-  subtitle = "Data Scientist."
-  showPoweredBy = false
-  math = true
-  KaTeXVersion = "0.16.4"
-  KaTeXCDN = "//cdn.jsdelivr.net/npm"
-  codeBlocksDark = false
-  marginNoteInd = "⊕"
-  sansSubtitle = false
-  centerArticle = false
-  showSummary = true
-  github = "timenoodles"
+  comments = false
+  showtoc = true
+  showreadingtime = true
+  showlastmod = false
 
-[[menu.nav]]
-  name = "Home"
-  weight = -110
-  identifier = "home"
-  url = "/"
+[params.author]
+  name = "Kenji"
 
-[[menu.nav]]
-  name = "Posts"
-  weight = -100
-  identifier = "posts"
-  url = "/posts/"
-
-[[menu.nav]]
-  name = "Categories"
-  weight = -90
-  identifier = "categories"
-  url = "/categories/"
-
-[[menu.nav]]
-  name = "About"
-  weight = -80
-  identifier = "about"
-  url = "/about/"
+[menu]
+  [[menu.main]]
+    name = "Posts"
+    url = "/posts/"
+    weight = 1
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 2
