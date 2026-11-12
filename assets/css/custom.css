@@ -1,9 +1,9 @@
 /* Custom styles for timenooles.github.io */
 /* Overrides theme shibui variables (loaded after main.css) */
 :root {
-  --font-size-base: 1.5rem;
-  --font-size-small: 1.3rem;
-  --font-size-code: 1.5rem;
+  --font-size-base: 1.25rem;
+  --font-size-small: 1.1rem;
+  --font-size-code: 1.25rem;
 }
 
 /* Enhanced Table of Contents Styling */
