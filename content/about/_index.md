@@ -1,5 +1,5 @@
 ---
-title: "About"
+title: "Contact"
 ---
 
-Data Scientist. I write about data, technology, and projects.
+

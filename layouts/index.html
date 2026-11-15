@@ -1,0 +1,17 @@
+{{ define "main" }}
+  {{ .Content }}
+  <h2>Archive</h2>
+  <table class="time-list">
+    <tbody>
+      {{ range (where site.RegularPages "Section" "posts").ByDate.Reverse }}
+      <tr>
+        <td class="time-list__date">{{ partial "date" .Date }}</td>
+        <td class="time-list__title"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></td>
+      </tr>
+      {{ end }}
+    </tbody>
+  </table>
+  <div class="terminal-nav">
+    {{ partial "menu.html" (dict "menuID" "main" "page" .) }}
+  </div>
+{{ end }}

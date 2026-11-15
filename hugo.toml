@@ -22,7 +22,7 @@ theme = 'shibui'
   tag = "tags"
 
 [params]
-  description = "Data Scientist."
+  description = ""
   comments = false
   showtoc = true
   showreadingtime = true
@@ -33,10 +33,10 @@ theme = 'shibui'
 
 [menu]
   [[menu.main]]
-    name = "Posts"
+    name = "Archive"
     url = "/posts/"
     weight = 1
   [[menu.main]]
-    name = "About"
+    name = "Contact"
     url = "/about/"
     weight = 2
