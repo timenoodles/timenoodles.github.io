@@ -1,10 +1,10 @@
 # timenoodles.github.io
 
-Blog pessoal — https://timenoodles.github.io/
+https://timenoodles.github.io/
 
-Tema: [shibui](https://github.com/ntk148v/shibui)
+Theme: [shibui](https://github.com/ntk148v/shibui)
 
-Requer Hugo >= 0.158 (o CI usa 0.169.0).
+Hugo >= 0.158 (o CI usa 0.169.0).
 
 ## Dev
 

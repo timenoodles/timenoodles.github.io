@@ -8,7 +8,7 @@ title: "Lists"
 - Hirayasumi (ひらやすみ) - Shinzo Keigo
 - Akane-banashi (あかね噺) - Suenaga Yuki, Takamasa Moue
 - The Unknown Craftsman: A Japanese Insight into Beauty - Yanagi Soetsu
-- Absence: On the Culture and Philosophy of the Far East - Byung Chul Han 
+- Absence: On the Culture and Philosophy of the Far East - Byung Chul Han
 - Take Ivy
 - Japan’s Dietary Transition and Its Impacts - Vaclav Smil
 - The Invisible Actor - Oida Yoshi
@@ -16,7 +16,7 @@ title: "Lists"
 
 ## Games
 
-- Kaizen 
+- Kaizen
 - Gato Roboto
 - Well Dweller
 - Guwange
