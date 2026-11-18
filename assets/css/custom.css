@@ -6,6 +6,14 @@
   --font-size-code: 1.25rem;
 }
 
+/* Remove a numeração automática dos títulos (#), mantendo o espaçamento */
+h2:not(.manual-number)::before,
+h3:not(.manual-number)::before,
+h4:not(.manual-number)::before,
+h5:not(.manual-number)::before {
+  content: none;
+}
+
 /* Enhanced Table of Contents Styling */
 .toc {
   position: relative;
